@@ -3,19 +3,19 @@ const darkButton = document.getElementById('darkClick');
 const divContainer = document.getElementById('container');
 const divStart = document.getElementById('start');
 
-const p1Text_light = "Welcome youngling!  I am Jedi Master Zelrac Zil of the Jedi Council.  You have now achieved the rank of Padawan learner.  Your instructor is Jedi Master Ron Sheid.";
+const p1Text_light = "Welcome youngling!  I am Jedi Master Zelrac Zil of the DigitalCrafts Jedi Council.  You have now achieved the rank of IMM-July Padawan learner.  Your instructor is Jedi Master Ron Sheid.";
 
-const p2Text_light = "Master Sheid is well versed in all the teachings of the DigitalCrafts Jedi Code!  While he has a flair for the dramatic, even strange at times, you would be wise to listen to his teachings.";
+const p2Text_light = "Master Sheid is well versed in all the teachings of the DigitalCrafts Jedi Code and a master of force power, Ranger Knowledge!  While he has a flair for the dramatic, even strange at times, you would be wise to listen to his teachings, typically said in threes.";
 
-const p3Text_light = "Due to recent events with the evil Sith Lord Snake Jodgel, a master of the dark side of Slack gif Force, occationally, Master Sheid will be on assignment tacking and battling the evil sith lord.  In these instances, you will hone your key lightsaber skills with Jedi Knight Cave Dolon, a master of the dual key lightsabers.";
+const p3Text_light = "Due to recent events with the evil Sith Lord Darth Snake Jodgel, a master of the dark side of Slack gif Force, occationally, Master Sheid will be on assignment tacking and battling the evil sith lord.  In these instances, you will hone your key lightsaber and responsive skills with Jedi Knight Cave Dolon, a master of the dual key lightsaber and Force skill Flexbox.";
 
 const p4Text_light = "May the Slack gif Force be with you!"
 
-const p1Text_dark = "Greetings underling!  I am Sith Lord Snake Jodgel.  You have now achieved the rank of Acolyte and will become my apprentice.";
+const p1Text_dark = "Greetings underling!  I am Sith Lord, Darth Snake Jodgel.  You have now achieved the rank of Acolyte and will become my apprentice.";
 
 const p2Text_dark = "As my apprentice, I will train you to use the dark side of the Slack gifs Force and how to master your weapon, the double LISTsaber, to gain ultimate power!  Beware of the Jedi, especially Jedi Master Yelrac Zil.  She is a crafty one and can use the force to teleport and attack you from behind.  Master Ron Sheid is well versed in all the teachings of the DigitalCrafts Jedi Code and is a master of the force power, Ranger Knowledge.";
 
-const p3Text_dark = "Stay focused and master these abilities.  For when the IMM-July Padawans' teaching is being enhanced by Jedi Knight Cave Dolon, a skilled dual key lightsaber master!";
+const p3Text_dark = "Stay focused and master these abilities.  For when you face the IMM-July Padawans', all your skill will be needed as their teaching has being enhanced by Jedi Knight Cave Dolon, skilled in the use of the dual key lightsaber and power, Force Flexbox!";
 
 const p4Text_dark = "May the Slack gif Force serve you well!"
 
@@ -68,7 +68,7 @@ lightButton.addEventListener('click', function (event){
 
   const lightLi_2 = document.createElement('li');
   lightLi_2.classList.add('li-light');
-  lightLi_2.innerHTML = "Back-end agressive negotiations";
+  lightLi_2.innerHTML = "Back-end aggressive negotiations";
   lightList.appendChild(lightLi_2);
 
   const lightLi_3 = document.createElement('li');
