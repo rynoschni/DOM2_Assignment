@@ -11,3 +11,119 @@ body{
     margin: 0;
     padding: 0;
 }
+
+li{
+    list-style-type: none;
+}
+
+.header{
+    font-size: 8rem;
+    font-style: italic;
+}
+.start{
+    text-align: center;
+}
+.start.hide{
+    display: none;
+}
+
+.buttonLight{
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+}
+.buttonLight:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: rgb(38, 235, 48);
+}
+
+.buttonDark{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
+
+.buttonDark:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #a20c0c;
+}
+
+.darkBody{
+    background: black;
+}
+.lightside{
+    padding-top: 20px;
+    text-shadow: .5px .5px wheat;
+}
+
+.darkside{
+    padding-top: 20px;
+    color: #a20c0c;
+    text-shadow: .25px .25px gray;
+}
+
+.h1-light{
+    text-align: center;
+    padding: 5px 0 20px 0;
+
+}
+
+.h1-dark{
+    text-align: center;
+    padding: 5px 0 20px 0;
+
+}
+
+.h2-light{
+    text-align: center;
+    padding: 5px 0 10px 0;
+
+}
+
+.h2-dark{
+    text-align: center;
+    padding: 5px 0 10px 0;
+
+}
+
+.p-light{
+    padding: 5px 40px 5px 40px;
+
+}
+
+.p-dark{
+    padding: 5px 40px 5px 40px;
+
+}
+
+.ul-light{
+    padding-bottom: 7px;
+}
+
+.ul-dark{
+    padding-bottom: 7px;
+}
+
+.li-light{
+    line-height: 2rem;
+    margin-left: 25px;
+    list-style-type: none;    
+    background-image: url("Jedi-bullet.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+padding-left: 40px;
+
+}
+
+.li-dark{
+    line-height: 2rem;
+    margin-left: 25px;
+    list-style-type: none;    
+    background-image: url("Sith-bullet.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+padding-left: 40px;
+
+}
